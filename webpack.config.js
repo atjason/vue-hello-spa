@@ -12,7 +12,7 @@ module.exports = {
     ]
   },
   devServer: {
-    open: true,
+    // open: true, // open browser after serve.
     hot: true,
   },
   plugins: [

@@ -4,6 +4,8 @@
   "description": "Create a Vue.js app using Single-File Components, without the CLI.",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack --mode production",
     "serve": "webpack-dev-server --mode development"
   },
   "author": "Jason",
