@@ -1,6 +1,7 @@
 <template>
-  <div id='app'>
-    {{ message }}
+  <div>
+    <input v-model='message'>
+    <p>What you input: {{ message }}</p>
   </div>
 </template>
 
